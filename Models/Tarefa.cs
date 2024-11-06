@@ -10,6 +10,8 @@
 
         public DateTime Data { get; set; } = DateTime.Now;
 
-        public DateTime DataRealizado { get; set; }
+        public DateTime? DataRealizado { get; set; }
+
+        public int CategoriaId { get; set; }
     }
 }
